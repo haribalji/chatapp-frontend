@@ -14,8 +14,8 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 
 
 
-// import  server  from "../../constants/config.js";
- const server ="https://chatapp-kchw.onrender.com";
+import { server } from "../../constants/config";
+ // const server ="https://chatapp-kchw.onrender.com";
 
 import axios from "axios";
 
