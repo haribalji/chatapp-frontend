@@ -11,7 +11,6 @@ import toast from 'react-hot-toast';
 import {server} from '../constants/config.js';
 
 import axios from 'axios';
-// import { server } from "./constants/config";
  // const server ="https://chatapp-kchw.onrender.com";
 function Login() {
     const [isLogin, setisLogin] = useState(true);
