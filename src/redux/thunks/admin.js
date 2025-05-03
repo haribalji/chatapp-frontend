@@ -14,7 +14,9 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 
 
 
-import  server  from "../../constants/config.js";
+// import  server  from "../../constants/config.js";
+ const server ="https://chatapp-kchw.onrender.com";
+
 import axios from "axios";
 
 // "admin/login", -->   // 🔹 action type name prefix
