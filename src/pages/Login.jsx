@@ -8,7 +8,7 @@ import {usernameValidator} from '../utils/validators'
 import { useDispatch } from 'react-redux';
 import { userExists } from '../redux/reducers/auth';
 import toast from 'react-hot-toast';
-import { server } from '../constants/config';
+import  server  from '../constants/config';
 import axios from 'axios';
 // import { server } from "./constants/config";
  // const server ="https://chatapp-kchw.onrender.com";
