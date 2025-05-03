@@ -14,7 +14,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 
 
 
-import { server } from "../../constants/config.js";
+import  server  from "../../constants/config.js";
 import axios from "axios";
 
 // "admin/login", -->   // 🔹 action type name prefix
