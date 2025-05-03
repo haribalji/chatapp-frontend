@@ -9,7 +9,7 @@ import { useDispatch } from 'react-redux';
 import { userExists } from '../redux/reducers/auth';
 import toast from 'react-hot-toast';
 // import  server  from '../constants/config';
-import server from '../constants/config';
+import server from '../constants/config.js';
 
 import axios from 'axios';
 // import { server } from "./constants/config";
